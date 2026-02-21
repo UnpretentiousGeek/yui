@@ -1,0 +1,7 @@
+{
+  "name": "mcp-server",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts"
+  }
+}

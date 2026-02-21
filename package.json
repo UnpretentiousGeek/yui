@@ -1,0 +1,12 @@
+{
+    "name": "yui",
+    "private": true,
+    "workspaces": [
+        "extension",
+        "mcp-server"
+    ],
+    "scripts": {
+        "dev:extension": "cd extension && bun run dev",
+        "dev:server": "cd mcp-server && bun run dev"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "skills": {
+    "browser-extension-builder": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "computedHash": "ff9206a2d2652b13fe31e6eca3120562bbde15f3a3546547b262e895fe475e8f"
+    },
+    "design-tokens": {
+      "source": "laurigates/claude-plugins",
+      "sourceType": "github",
+      "computedHash": "28e16427ce9593d12705dfa53775956191d101e5084372bdd30b78ff31702215"
+    },
+    "find-skills": {
+      "source": "vercel-labs/skills",
+      "sourceType": "github",
+      "computedHash": "25872a21881a950edc3db1f3329664d60405d539660ce05b3265db2de06a7dfd"
+    }
+  }
+}
