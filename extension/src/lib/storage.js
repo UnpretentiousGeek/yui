@@ -29,3 +29,16 @@ export async function listDesigns() {
   const result = await chrome.storage.local.get(KEYS.DESIGNS);
   return result[KEYS.DESIGNS] ?? {};
 }
+
+export async function saveStructure(url, structure) {
+  const result = await chrome.storage.local.get(KEYS.DESIGNS);
+  const designs = result[KEYS.DESIGNS] ?? {};
+  designs[url] = { ...designs[url], structure, updatedAt: Date.now() };
+  await chrome.storage.local.set({ [KEYS.DESIGNS]: designs });
+}
+
+export async function getStructure(url) {
+  const result = await chrome.storage.local.get(KEYS.DESIGNS);
+  const designs = result[KEYS.DESIGNS] ?? {};
+  return designs[url]?.structure ?? null;
+}
