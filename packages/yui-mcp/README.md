@@ -1,4 +1,4 @@
-# mcp-server
+# yui-mcp
 
 To install dependencies:
 

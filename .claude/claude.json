@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "yui": {
+            "command": "bun",
+            "args": [
+                "run",
+                "packages/yui-mcp/bin/cli.ts",
+                "server"
+            ]
+        }
+    }
+}

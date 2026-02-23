@@ -1,0 +1,17 @@
+{
+  "name": "yui-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Yui — apply extracted web designs to your codebase",
+  "bin": {
+    "yui-mcp": "./bin/cli.ts"
+  },
+  "scripts": {
+    "dev": "bun --watch bin/cli.ts server",
+    "start": "bun bin/cli.ts server"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "src"
+  ]
+}

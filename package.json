@@ -3,10 +3,10 @@
     "private": true,
     "workspaces": [
         "extension",
-        "mcp-server"
+        "packages/yui-mcp"
     ],
     "scripts": {
         "dev:extension": "cd extension && bun run dev",
-        "dev:server": "cd mcp-server && bun run dev"
+        "dev:mcp": "cd packages/yui-mcp && bun run dev"
     }
 }
